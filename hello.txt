@@ -1,1 +1,9 @@
-github
+git clone ~
+pwd
+git status
+git add *
+git add hello.txt
+git commit -m "add hello.txt"
+git remote add main ~
+git remote -v
+git push
