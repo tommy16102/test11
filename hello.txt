@@ -1,11 +1,11 @@
-git
-
-git clone ~
-pwd
-git status
-git add *
-git add hello.txt
-git commit -m "add hello.txt"
-git remote add main ~
-git remote -v
-git push
+git clone ~ (repository->local)
+pwd (현재 위치)
+cd 경로(위치 변경)
+git status (staging area 상태 확인)
+git add * (전체 파일 추적)
+git add hello.txt(hello.txt. 추적)
+commit하기전에 add해야함
+git commit -m "add hello.txt" (commit "메시지 아무거나")
+git remote add main/origin ~  (원격저장소 연결)
+git remote -v (원격저장소 연결 확인)
+git push(원격 저장소에 commit)
