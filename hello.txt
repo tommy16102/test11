@@ -6,11 +6,11 @@ git add * (전체 파일 추적)
 git add hello.txt(hello.txt. 추적)
 commit하기전에 add해야함
 git commit -m "add hello.txt" (commit "메시지 아무거나")
-git remote add main/origin ~  (원격저장소 연결)
+git remote add main/origin ~  (원격저장소 연결)  remove로 지우기 가능
 git remote -v (원격저장소 연결 확인)
 git push(원격 저장소에 commit)
 
 순서
 git add 
-git commit
-got push 
+git commit -m " "
+git push 
